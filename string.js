@@ -11,6 +11,7 @@ console.log(gameName.__proto__);
 console.log(gameName.length); 
 console.log(gameName.charAt(5));
 console.log(gameName.indexOf('a')); 
+
 //can access all methods
 
 const newString = gameName.substring(0,6)
