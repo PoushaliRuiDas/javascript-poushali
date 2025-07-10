@@ -78,4 +78,36 @@ console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLogged'));
+console.log(tinderUser.hasOwnProperty('isLogged')); 
+
+const course = {
+    coursename: "Javascript",
+    price: "599",
+    courseInstructor: "Vicky"
+}
+//course.courseInstructor
+const {courseInstructor} = course
+//console.log(courseInstructor);
+
+const {courseInstructor: Instructor} = course
+console.log(Instructor);
+
+//const navbar = ({company}) => {}
+//navbar(company="something") //de-structuring
+
+
+//JSON API
+//object but without any name
+/*
+{
+    "name": "Pou",
+    "coursename": "Javascript",
+    "price": "free"        //ignore the errors, we can covert it in object
+}
+[
+    {},
+    {},
+    {}
+]
+
+*/ // we will dicuss later in detail
